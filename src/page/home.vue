@@ -1,19 +1,21 @@
 <template>
-  
-  <div id="index">
-      我是主页
+  <div id="home">
+    
   </div>
-
 </template>
-
 
 <script>
 export default {
-  
+  data () {
+    return {
 
+    }
+  },
+  components: {
+
+  }
 }
 </script>
 
-<style lang="scss" scoped>
-
+<style scoped lang="scss">
 </style>

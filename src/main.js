@@ -26,6 +26,8 @@ Vue.config.productionTip = false
 
 
 import fetch from './util/fetch'
+Vue.prototype.fetch = fetch
+
 
 /* eslint-disable no-new */
 new Vue({
